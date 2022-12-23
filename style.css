@@ -15,11 +15,9 @@ body {
     justify-content: center;
     align-items: center;
     padding-top: 50px;
-    width: 55% ;
+    /*width: 55%*/
     margin: auto;
-    margin-top: 30px;
-    
-    
+    margin-top: 30px;   
 }
  
 .boit {
@@ -29,10 +27,8 @@ body {
     align-items: flex-start;
     color: white;
     padding: 30px;
-    min-height: 400px;
-    width: min(400PX, 100%);
-   
-    
+    min-height: 500px;
+    width: min(400PX, 100%);   
 }
 .titulo {
     margin-top: 58px;
@@ -100,7 +96,7 @@ a:hover {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 375px ;
+        /*width: 375px ;*/
         height: auto;
         margin: auto;
         margin-top: 30px;
@@ -108,14 +104,15 @@ a:hover {
         
         
     }
-    .boitJeune{
+
+    .boitJeune {
         background-color: hsl(31, 77%, 52%);
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         border-bottom-left-radius: 0px;
     }
     
-    .boitVert{
+    .boitVert {
         background-color: hsl(179, 100%, 13%) ;
         border-top-right-radius: 0px ;
         border-bottom-right-radius: 10px;
